@@ -28,6 +28,7 @@ export default function Cart() {
     var sessionId = Cookies.get('session_id');
     if (sessionId) {
       await fetch('/api/expire-checkout-session', {
+        method: 'post',
         body: JSON.stringify({ session_id: sessionId })
       })
     }
