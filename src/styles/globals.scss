@@ -1,0 +1,45 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: #1A1A1A;
+  --color-heading: #333333;
+  --color-grey: #595959;
+  --color-yellow: #EAB600;
+  --color-green: #20A926;
+  --color-text: #F9F9F9;
+  --color-red: #F50707;
+}
+
+body {
+  background: var(--color-background);
+}
+
+*, html, input, textArea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--color-text)
+}
+
+a {
+  text-decoration: none;
+}
+
